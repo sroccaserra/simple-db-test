@@ -2,7 +2,7 @@ The class `simpleDbTest.SimpleDbTestCase` is a very simple utility class to auto
 
 No optimisation was made, please use it as a learning tool.
 
-It uses MySQL, but you can easily imagine how to use SQLAlchemy instead for instance.
+It uses MySQL, but you can easily imagine how to use [SQLAlchemy][s] instead for instance.
 
 ## Use
 
@@ -18,3 +18,4 @@ Then you can run the example:
 
 You can also use your favourite unit test runner.
 
+[s]: http://www.sqlalchemy.org/
