@@ -30,5 +30,7 @@ Then you can run the example:
 
 You can also use your favourite unit test runner.
 
+Note : in your config file, you need to have one section for each schema you want to test. The name of the section is the name of the schema. In each section, provide the server name, port, user name and password. This allows to test and compare values coming from different schemas.
+
 
 [s]: http://www.sqlalchemy.org/
