@@ -31,7 +31,7 @@ class SimpleDbTestCase(TestCase):
         cursor = connection.cursor()
         try:
             cursor.execute(requete)
-            return cursor.fetchone()[0]
+            return cursor.fetchone()
         except TypeError:
             return None
         finally:
