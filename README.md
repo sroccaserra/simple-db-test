@@ -14,7 +14,7 @@ Features:
 - Executes request and provide results as a list or single value
 - Test requests can be executed on various schemas and various hosts, provided
   the corresponding connection info are provide in the config file. This
-  enables you to compare values coming from different schemas in your tests.
+  enables you to compare values coming from different servers in your tests.
 
 ## Run the example
 
