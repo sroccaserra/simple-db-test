@@ -47,11 +47,3 @@ class SimpleDbTestCase(TestCase):
         finally:
             cursor.close()
             connection.close()
-
-    def assertEqualRequestResult(self, expected, requete, database, error_message=None):
-        requestResult = self.get_request_result(requete, database)
-        self.assertEqual(expected, requestResult, error_message)
-
-    def assertLowerOrEqualRequestResult(self, expected, requete, database):
-        requestResult = self.get_request_result(requete, database)
-        self.assertLessEqual(expected, requestResult)
