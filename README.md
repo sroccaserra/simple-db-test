@@ -6,7 +6,7 @@ It uses MySQL, but you can easily imagine how to use [SQLAlchemy][s] instead for
 
 Features:
 
-- Reads file from a config file
+- Reads connection info from a config file
 - Config file path overrideable by an environment variable
 - Private config file override values (ignored by Git, prevents credentials to be commited)
 - Closes the connection in case of error
