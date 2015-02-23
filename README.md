@@ -16,13 +16,13 @@ Features:
   the corresponding connection info are provide in the config file. This
   enables you to compare values coming from different schemas in your tests.
 
-## Use
+## Run the example
 
-For the example to work, you will need to install `python-mysqldb` (for Debian users).
+For the example to work, you will need to install `python-mysqldb` (for Debian users), and to fill in your credentials in the config file.
 
-Then, copy the file `cfg/simpleDbTest.cfg` as `cfg/private.cfg`. It will override everything from `cfg/simpleDbTest.cfg`, and will be ignored by Git.
+Copy the file `cfg/simpleDbTest.cfg` as `cfg/private.cfg` to create a private version of the config file. It will override everything from `cfg/simpleDbTest.cfg`, and will be ignored by Git.
 
-In your private cfg file, fill your MySQL server name, server port, user name, and password.
+In your brand new private file, fill your MySQL server name, server port, user name, and password.
 
 Then you can run the example:
 
