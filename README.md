@@ -8,10 +8,13 @@ Features:
 
 - Reads connection info from a config file
 - Config file path overrideable by an environment variable
-- Private config file override values (ignored by Git, prevents credentials to be commited)
+- Private config file override values (ignored by Git, prevents credentials to
+  be commited)
 - Closes the connection in case of error
 - Executes request and provide results as a list or single value
-- Test requests can be executed on various schemas and various hosts, provided the corresponding connection info are provide in the config file.
+- Test requests can be executed on various schemas and various hosts, provided
+  the corresponding connection info are provide in the config file. This
+  enables you to compare values coming from different schemas in your tests.
 
 ## Use
 
